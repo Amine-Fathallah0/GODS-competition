@@ -55,7 +55,8 @@ model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-unca
 * Transformer: **DistilBERT** (lightweight BERT variant) 
 * Fine-tuned using HuggingFace `Trainer` API 
 * Used `AdamW` optimizer and weighted loss for class imbalance 
-* Metrics: Accuracy, F1 Score (macro)”
+* Metrics: Accuracy, F1 Score (macro)
+  
 ### 📈 Performance 
 | Metric | Public LB | Private LB | 
 | --- | --- | --- | 
@@ -76,10 +77,10 @@ model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-unca
 └── ...
 
 ### 👥 Team
-PowerPointPoys
-🇹🇳 Tunisia
-1st Year Computer Science Engineering Students
-Fathallah Amine | Kraiem Mourad | Ghaoui Med yassin
+* PowerPointPoys
+* 🇹🇳 Tunisia
+* 1st Year Computer Science Engineering Students
+* Fathallah Amine | Kraiem Mourad | Ghaoui Med yassin
 
 ### 📌 Key Takeaways 
 ---------------- 
